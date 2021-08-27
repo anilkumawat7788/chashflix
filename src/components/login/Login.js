@@ -1,84 +1,65 @@
 import React from 'react'
-
+import './login.css';
+import {NavLink} from "react-router-dom"
 const Login = () => {
     return (
         <>
-                 <h1>hello login</h1> 
-           <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis totam
-          voluptas consectetur quas obcaecati quae! Eum nihil quasi nobis
-          consequatur est commodi dolores quo cumque quibusdam, quas, tenetur
-          molestias unde non! Corrupti dolore nisi blanditiis. Doloremque dolor
-          dolore ullam nobis quibusdam animi enim cum provident quos adipisci,
-          ad quis! Nostrum dicta deserunt quia laboriosam reiciendis adipisci
-          eos praesentium debitis, molestias veniam illum impedit voluptatibus
-          accusantium exercitationem voluptatum vero dolore sed tempore aut hic
-          quasi culpa dolorum? Corrupti, iste facilis qui nam quia, saepe
-          praesentium laudantium iusto quis unde exercitationem, et numquam
-          minus mollitia facere eos. Minima nulla minus commodi illo, expedita
-          dicta dolores a doloremque. Beatae libero ut voluptate magni quisquam
-          doloremque inventore corrupti iusto voluptatum enim quasi maxime,
-          dolores dicta aliquid. Eius distinctio architecto vel magnam sequi
-          amet non exercitationem aspernatur, tempore nisi eos obcaecati est
-          atque quae. Quisquam qui asperiores eaque adipisci odio perferendis
-          porro nostrum! Inventore, quaerat veniam placeat vitae eos adipisci
-          doloremque corrupti ratione, iure earum dolore totam fugiat officia
-          libero atque laboriosam quod explicabo accusamus dignissimos minima
-          quo facere aliquid! Necessitatibus, fugit eos at, officiis rerum
-          aperiam non quisquam sunt corrupti aut nam nisi veritatis mollitia
-          exercitationem debitis asperiores error dolorem reprehenderit possimus
-          accusantium architecto.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis totam
-          voluptas consectetur quas obcaecati quae! Eum nihil quasi nobis
-          consequatur est commodi dolores quo cumque quibusdam, quas, tenetur
-          molestias unde non! Corrupti dolore nisi blanditiis. Doloremque dolor
-          dolore ullam nobis quibusdam animi enim cum provident quos adipisci,
-          ad quis! Nostrum dicta deserunt quia laboriosam reiciendis adipisci
-          eos praesentium debitis, molestias veniam illum impedit voluptatibus
-          accusantium exercitationem voluptatum vero dolore sed tempore aut hic
-          quasi culpa dolorum? Corrupti, iste facilis qui nam quia, saepe
-          praesentium laudantium iusto quis unde exercitationem, et numquam
-          minus mollitia facere eos. Minima nulla minus commodi illo, expedita
-          dicta dolores a doloremque. Beatae libero ut voluptate magni quisquam
-          doloremque inventore corrupti iusto voluptatum enim quasi maxime,
-          dolores dicta aliquid. Eius distinctio architecto vel magnam sequi
-          amet non exercitationem aspernatur, tempore nisi eos obcaecati est
-          atque quae. Quisquam qui asperiores eaque adipisci odio perferendis
-          porro nostrum! Inventore, quaerat veniam placeat vitae eos adipisci
-          doloremque corrupti ratione, iure earum dolore totam fugiat officia
-          libero atque laboriosam quod explicabo accusamus dignissimos minima
-          quo facere aliquid! Necessitatibus, fugit eos at, officiis rerum
-          aperiam non quisquam sunt corrupti aut nam nisi veritatis mollitia
-          exercitationem debitis asperiores error dolorem reprehenderit possimus
-          accusantium architecto.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis totam
-          voluptas consectetur quas obcaecati quae! Eum nihil quasi nobis
-          consequatur est commodi dolores quo cumque quibusdam, quas, tenetur
-          molestias unde non! Corrupti dolore nisi blanditiis. Doloremque dolor
-          dolore ullam nobis quibusdam animi enim cum provident quos adipisci,
-          ad quis! Nostrum dicta deserunt quia laboriosam reiciendis adipisci
-          eos praesentium debitis, molestias veniam illum impedit voluptatibus
-          accusantium exercitationem voluptatum vero dolore sed tempore aut hic
-          quasi culpa dolorum? Corrupti, iste facilis qui nam quia, saepe
-          praesentium laudantium iusto quis unde exercitationem, et numquam
-          minus mollitia facere eos. Minima nulla minus commodi illo, expedita
-          dicta dolores a doloremque. Beatae libero ut voluptate magni quisquam
-          doloremque inventore corrupti iusto voluptatum enim quasi maxime,
-          dolores dicta aliquid. Eius distinctio architecto vel magnam sequi
-          amet non exercitationem aspernatur, tempore nisi eos obcaecati est
-          atque quae. Quisquam qui asperiores eaque adipisci odio perferendis
-          porro nostrum! Inventore, quaerat veniam placeat vitae eos adipisci
-          doloremque corrupti ratione, iure earum dolore totam fugiat officia
-          libero atque laboriosam quod explicabo accusamus dignissimos minima
-          quo facere aliquid! Necessitatibus, fugit eos at, officiis rerum
-          aperiam non quisquam sunt corrupti aut nam nisi veritatis mollitia
-          exercitationem debitis asperiores error dolorem reprehenderit possimus
-          accusantium architecto.
-        </p>
+             <div className="login_main_div">
+             {/* <head>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+  
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet' />
+</head> */}
+
+{/* <img class='background-img' src='https://i.pinimg.com/736x/ca/6b/0f/ca6b0f7177229f00b2ec1ea2f48385fd.jpg'/> */}
+<div class='card-wrapper'>
+  <h1 class='call-to-action'>Sign In</h1>
+  
+  <form>
+    <div className='field'>
+      <label for='username'>Email</label><br />
+      <i className='bx bx-user'></i>
+      <input type='email' 
+           id='username' 
+           name='username' 
+           required placeholder='Enter your Email'
+           spellcheck='false'/>
+    </div>
+    
+    <div className='field'>
+     <label for='pwd' name='pwd'>Password</label><br />
+      <i className='bx bx-lock-alt' ></i>
+    <input type='password' 
+           id='pwd' 
+           name='pwd' 
+           required placeholder='Enter your password'/>
+    </div>
+    <NavLink to="/signup">Forgot password?</NavLink>
+    {/* <a href=''><span>Forgot password?</span></a> */}
+    <input  type='submit' id = 'login-button' value='Sign In'/>
+    
+  </form>
+  
+  {/* <div className='alternate-logins'>
+    Or Sing Up Using
+    <div className='social-links'>
+      <i className='bx bxl-google' ></i>
+      <i className='bx bxl-facebook' ></i>
+      <i className='bx bxl-twitter' ></i>
+    </div>
+  </div> */}
+  
+  <div className='sign-up'>
+  Don't have an account yet? <br />
+    {/* <a href=''>SIGN UP</a> */}
+<NavLink to="/signup">SIGN UP</NavLink>
+  </div>
+</div>
+</div>
+
+    
         </>
     )
 }

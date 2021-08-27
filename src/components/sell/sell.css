@@ -1,0 +1,478 @@
+.main_all_brand_phones{
+    background: #FAF4F2 0% 0% no-repeat padding-box;
+padding: 6rem 6rem;
+}
+.main_all_brand_phones h2{
+ font-size: 1.5rem;
+ color: #4D4D4E;
+text-transform: capitalize;
+opacity: 1;
+text-align: center;
+}
+.all_mobile_devices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.all_phones_div{
+    width: 13%;
+ height: 7rem;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 6px #00000029;
+opacity: 1;
+position: relative;
+margin-top: 2rem;
+
+
+}
+.all_phones_div img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4.5rem;
+ height: 4.5rem;
+
+
+}
+.all_phones_div2{
+    width: 17%;
+ height: 10rem;
+ background: #FFFFFF 0% 0% no-repeat padding-box;
+ box-shadow: 5px 10px 30px #3B37350D;
+ border-radius: 20px;
+ opacity: 1;
+position: relative;
+margin-top: 2rem;
+
+
+
+}
+.all_phones_div2 img{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 6rem;
+ height: 6rem;
+
+
+}
+.all_phones_div2 p{
+    padding-top: 7.5rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #3B3735;
+   
+}
+.text_decoradtion{
+    text-decoration: none !important;
+}
+/* top selling phone section start here */
+
+.top_selling_brand_main_sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.top_selling_brand_sub_div{
+    position: relative;
+}
+/* .top_selling_brand_sub_div .main_button_img{
+    position: relative;
+    width: 15rem;
+    height: 15rem;
+}
+.top_selling_brand_sub_div .main_brand_img{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3rem;
+    height: 3rem;
+
+} */
+.top_selling_brand_sub_div .main_brand_img{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 5rem;
+    height: 5rem;
+
+}
+  .main_button_box{
+      width: 12rem;
+      height: 12rem;
+      background: #FFFFFF 0% 0% no-repeat padding-box !important;
+      box-shadow: 0px 3px 6px #00000029 !important;
+      border: 1px solid #FFFFFF ;
+      border-radius: 30px;
+  } 
+  .circlebox_sub{
+      border-radius: 50%;
+      background: #C01E29;
+      border: 1px solid #C01E29;
+      width: 5rem;
+      height: 5rem;
+      display: block;
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+  } 
+  .circlebox_sub:hover{
+    border: 1px solid #C01E29;
+    background: #fff;
+    color: #C01E29 !important;
+} 
+  .arrow_up{
+      color: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 2rem;
+  }
+  .circlebox_sub .arrow_up:hover{
+    color: #C01E29;
+  
+}
+.search_feild{
+    position: relative !important;
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+box-shadow: 0px 3px 6px #00000029 !important;
+border: 1px solid #FFFFFF ;
+border-radius: 30px !important;
+opacity: 1;
+
+}
+.search_box{
+    position: relative;
+    margin-top: 3rem;
+}
+.search_box img{
+   position: absolute;
+
+   right: 0 ;
+   top: 0;
+margin: .8rem;
+   width: 2.5rem;
+   height: 2.5rem;
+}
+/* ===========sell part3 css start here================ */
+.varient_type_section{
+    background: #FAF4F2 0% 0% no-repeat padding-box;
+    padding: 3rem 6rem;
+}
+.main_varien_type_div{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 8px 8px 24px #090E1466;
+    border-radius: 41px;
+    opacity: 1; 
+    width: 100%;
+    height: 22rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start
+}
+.sub_varien_type_img_div img{
+    width: 18rem;
+    height: 18rem;
+    margin-right: 5rem;
+}
+.sub_varien_type_content_div h2{
+    font-size: 2.5rem !important;
+    color: #3B3735;
+text-transform: capitalize;
+opacity: 1;
+}
+.sub_varien_type_content_div p{
+ padding: .5rem 0 0 0;
+ font-size: 1.2rem;
+}
+.label_space1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 9px #00000017;
+border-radius: 12px;
+opacity: 1;
+padding: .5rem;
+height: auto;
+width: auto;
+margin-right: 2rem;
+cursor: pointer;
+border: 1px solid #fff;
+}
+.label_space1:hover{
+    border: 1px solid #C01E29;
+ 
+}
+.label_space1 span{
+    text-align: center;
+padding-bottom: 1rem !important;
+margin-bottom: 1rem !important;
+font-size: 1.8rem;
+}
+
+.btn_next{
+    margin-top: 1rem;
+    width: 12rem;
+    padding: 10px 25px;
+    background: #C01E29 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1; 
+    color: #fff;
+    outline: none;
+    display: inline-block;
+  
+}
+.btn_next:hover{
+    background: #fff;
+    border: 1px solid #C01E29;
+    color: #C01E29;
+}
+/* ===========sell part4 css start here========= */
+.price_and_button{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: start;
+}
+.price_and_button h3{
+    font-size: 2.5rem;
+    color: #C01E29;
+    opacity: 1;
+    padding-right: 2rem;
+
+}
+.btn_next22{
+
+    width: 12rem;
+    padding: 10px 25px;
+    background: #C01E29 0% 0% no-repeat padding-box;
+    border-radius: 8px;
+    opacity: 1; 
+    color: #fff;
+    outline: none;
+    display: block;
+  
+}
+.btn_next22:hover{
+    background: #fff;
+    border: 1px solid #C01E29;
+    color: #C01E29;
+}
+
+/* ===========sell part5 css start here========= */
+.current_conditiondevice_section{
+    padding: 2rem 6rem;
+ 
+} 
+.main_current_condition_div{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* align-items: center; */
+}
+/* left side div */
+.device_condition_div{
+    position: relative;
+    width: 70%;
+    height:auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 8px 8px 24px #090E1466;
+border-radius: 41px;
+opacity: 1;
+padding: 3rem;
+}
+.device_condition_div h2{
+    color: #3B3735;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 1.5rem !important;
+    text-align: center;
+    padding: 3rem 0;
+}
+.device_condition_div p{
+    font-size: 1.2rem;
+}
+.available_pera{
+padding-top: 2rem;
+font-size: 1.2rem;
+}
+.available_accessoris_main_div{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+}
+.available_accessoris_sub_div{
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 10px 15px #090E1429;
+    border-radius: 20px;
+    opacity: 1;  
+}
+.available_accessoris_sub_div img{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 4rem;
+    height: 4rem;
+
+}
+.box_name_acc{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10rem;
+    height: 3rem;
+    background: #F2F3F3 0% 0% no-repeat padding-box;
+border-radius: 20px;
+opacity: 1;
+text-align: center;
+padding-top: 1rem;
+}
+.btn_next33{
+    /* position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin-top: 3rem;
+    width: 12rem;
+    padding: 10px 25px;
+    background: #C01E29 0% 0% no-repeat padding-box;
+    border-radius: 25px;
+    opacity: 1; 
+    color: #fff;
+    outline: none;
+    display: block;
+  
+}
+.btn_next33:hover{
+    background: #fff;
+    border: 1px solid #C01E29;
+    color: #C01E29;
+}
+/* right side div */
+.device_condition_update_div{
+    position: relative;
+    width: 28%;
+    height:auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 8px 8px 24px #090E1466;
+    border-radius: 41px;
+    opacity: 1; 
+}
+.device_img img{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 3rem 0  0 0; */
+    height: 12rem; 
+    width: 12rem;
+}
+.device_img h4{
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 1.3rem;
+}
+.device_evaluation{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 2rem;
+}
+.device_evaluation h3{
+    font-size: 1.5rem;
+}
+
+/* =======sell part6 css start here =======*/
+.label_space22{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 2px 9px #00000017;
+border-radius: 12px;
+opacity: 1;
+padding: .5rem;
+height: auto;
+width: auto;
+margin-right: 2rem;
+cursor: pointer;
+border: 1px solid #fff;
+}
+.label_space22:hover{
+    border: 1px solid #C01E29;
+ 
+}
+.label_space22 span{
+    text-align: center;
+padding-bottom: 1rem !important;
+margin-bottom: 1rem !important;
+font-size: 1.1rem;
+}
+.label_space22 input[type=radio], select {
+    width: 100%;
+       padding: 12px 20px;
+     
+       display: inline-block;
+       box-sizing: border-box;
+       background: #FFFFFF 0% 0% no-repeat padding-box;
+   border: 0.10000000149011612px solid #707070;
+   border-radius: 12px;
+   outline: none !important;
+   width: 1rem;
+   height: 1rem;
+     }
+     .box_name_acc1 {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 10rem;
+        height: 3rem;
+        background: #F2F3F3 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity: 1;
+    text-align: center;
+    padding-top: 1rem;
+    text-decoration: none;
+    color: #3B3735;
+    }
+    .box_name_acc1:hover {
+        background: #C01E29 0% 0% no-repeat padding-box;
+        color: #fff;
+      
+    }
+    .box_name_acc1 h6{
+      font-size: .8rem;
+    }
+    .device_img22 img{
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        /* margin: 3rem 0  0 0; */
+        height: 12rem; 
+        width: 12rem;
+    }
+    .device_img22 h4{
+        text-align: center;
+        padding-top: 15rem;
+        font-size: 1.3rem;
+    }
+    .device_evaluation{
+
+    }

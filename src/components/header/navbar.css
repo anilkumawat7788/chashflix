@@ -111,7 +111,11 @@ opacity: 1;
   .menu-icon {
     display: none;
   }
-  
+  .login_classdiv{
+    border: 1px solid #333;
+border-radius: 25px;
+opacity: 1;
+  }
   @media screen and (max-width: 960px) {
     .navbar {
      background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);

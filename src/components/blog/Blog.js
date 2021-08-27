@@ -91,7 +91,7 @@ const Blog = () => {
         </div>
 
 {/* ==============third section start here ===================*/}
-        <div className="main_hacks_section2">
+ <div className="main_hacks_section2">
    <h2>How To Hide Apps On Android Devices</h2>
         <div className="blog_hacks_div">
           <div className="hacks_imges">

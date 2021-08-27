@@ -7,8 +7,8 @@ import about2 from "../../images/about/about2.png";
 import about3 from "../../images/about/about3.png";
 import about4 from "../../images/about/about4.png";
 import about5 from "../../images/about/about5.png";
-import team1 from "../../images/about/team1.png";
-import team2 from "../../images/about/team2.png";
+import team1 from "../../images/about/team1.jpg";
+import team2 from "../../images/about/team2.jpg";
 import pat1 from "../../images/about/pat1.png"
 import pat2 from "../../images/about/pat2.png"
 import pat3 from "../../images/about/pat3.png"

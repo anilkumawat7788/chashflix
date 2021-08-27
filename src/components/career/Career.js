@@ -2,12 +2,10 @@ import React from "react";
 import "./career.css";
 import career from "../../images/Career/career.svg";
 import { NavLink } from "react-router-dom";
-import life1 from "../../images/Career/life1.png";
-import life2 from "../../images/Career/life2.png";
-import life3 from "../../images/Career/life3.png";
 
-import team1 from "../../images/about/team1.png";
-import team2 from "../../images/about/team2.png";
+
+import team1 from "../../images/about/team1.jpg";
+import team2 from "../../images/about/team2.jpg";
 
 import ben1 from "../../images/Career/ben1.png";
 import ben2 from "../../images/Career/ben2.png";
