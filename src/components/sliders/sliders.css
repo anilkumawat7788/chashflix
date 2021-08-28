@@ -1,5 +1,5 @@
 .MAIN_SLIDER{
-    margin: 0rem 0 5rem 0;
+    margin: 0rem 0 0rem 0;
 }
 .all_services_box2{
     position: relative;
@@ -140,10 +140,19 @@ opacity: 1;
 .top_selling_brand_sub_div11 .main_brand_img11{
     position: absolute;
     top: 40%;
-    left: 50%;
+    left: 46%;
     transform: translate(-50%, -50%);
     width: 6rem;
     height: 6rem;
+
+}
+.top_selling_brand_sub_div11 .main_brand_img1122{
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 10rem;
+    height: 10rem;
 
 }
   .main_button_box11{
@@ -183,4 +192,33 @@ opacity: 1;
   .circlebox_sub11 .arrow_up11:hover{
     color: #C01E29;
   
+}
+.brand_div_name{
+    position: absolute;
+    top: 87%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    width: 45%;
+    height: 2.5rem;
+    text-align:center;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 14px;
+opacity: 1;
+padding-top: .4rem;
+color: red;
+}
+.brand_div_name p{ 
+color: #333;
+}
+.brand_div_name:hover{
+color: #fff !important;
+background: #C01E29;
+}
+.brand_div_name p:hover{ 
+    color: #fff;
+    }
+.hover_latest_model{
+    text-decoration: none;
+}
+@media screen and (max-width:800px){
 }

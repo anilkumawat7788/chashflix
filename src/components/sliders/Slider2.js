@@ -2,11 +2,23 @@ import React, { Component } from "react";
 import "./sliders.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import s1 from "../../images/1.svg";
-import s2 from "../../images/2.svg";
-import s3 from "../../images/3.svg";
-import s4 from "../../images/4.svg";
-import s5 from "../../images/5.svg";
+import phone1 from "../../images/phones/phone1.png";
+import phone2 from "../../images/phones/phone2.png";
+import phone3 from "../../images/phones/phone3.png";
+import phone4 from "../../images/phones/phone4.png";
+import phone5 from "../../images/phones/phone5.png";
+import phone6 from "../../images/phones/phone6.png";
+import phone7 from "../../images/phones/phone7.png";
+import phone8 from "../../images/phones/phone8.png";
+import phone9 from "../../images/phones/phone9.png";
+import phone10 from "../../images/phones/phone10.png";
+import phone11 from "../../images/phones/phone11.png";
+import phone12 from "../../images/phones/phone12.png";
+import phone13 from "../../images/phones/phone13.png";
+import phone14 from "../../images/phones/phone14.png";
+import apple from "../../images/phones/apple.jpg"
+// import s6 from "../../images/6.svg";
+import { AiOutlineArrowUp } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import Slider from "react-slick";
 class Services extends Component {
@@ -16,73 +28,153 @@ class Services extends Component {
       centerMode: true,
       infinite: true,
       centerPadding: "60px",
-      slidesToShow: 1,
+      slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
       speed: 500,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+           
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
     return (
       <>
        
         {/* slider start here */}
         <div className="MAIN_SLIDER">
+        <div className="main_all_brand_phones222">
+        <h2>Top Selling Models</h2>
+          <Slider {...settings}>
         
-        <Slider {...settings}>
-          <div>
-            <div className="all_services_box2">
-              <img className="ALL_SERVICES_imgs" src={s1} alt="" />
-              <h3>EPR Services for Producers & Bulk Consumers</h3>
-                      <p>
-                      Reach your yearly e-waste collection targets and get EPR authorization by associating with us.
-                      </p>
+      
+            <div>
+              <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
             </div>
-            {/* <img className="slider_images" src={p6} alt=""/> */}
-          </div>
-          <div>
-            <div className="all_services_box2">
-              <img className="ALL_SERVICES_imgs" src={s2} alt="" />
-              <h3>E-Secure Data Destruction Services</h3>
-                      <p>
-                      Don’t worry about data leakage. We safely remove the entire data in the storage devices and then dismantle all the components for recycling.
-                      </p>
             </div>
-          </div>
-          <div>
-            <div className="all_services_box2">
-              <img className="ALL_SERVICES_imgs" src={s5} alt="" />
-              <h3>IT Asset Management</h3>
-                      <p>
-                      Maintaining End of Life IT hardware is very expensive. We monitor the old IT assets and help you upgrade in the right time with less investment.
-                      </p>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
             </div>
-          </div>
-          <div>
-            <div className="all_services_box2">
-              <img className="ALL_SERVICES_imgs" src={s3} alt="" />
-              <h3>IT Asset Disposal</h3>
-                      <p>
-                      Disposing of End of Life or old IT Hardware can bring great returns for you.
-                      </p>
             </div>
-          </div>
-          <div>
-            <div className="all_services_box2">
-              <img className="ALL_SERVICES_imgs" src={s5} alt="" />
-              <h3>Reverse Logistics</h3>
-                      <p>
-                      We collect and transport huge accumulations of carton damaged, customer returned, or end of life products from your location.
-                      </p>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
             </div>
-          </div>
-          <div>
-            <div className="all_services_box2">
-              <img className="ALL_SERVICES_imgs" src={s4} alt="" />
-              <h3>PCB Certified E-Waste Recycling</h3>
-                      <p>
-                      We do have a PCB Authorized recycling unit in Bangalore with the facility to extract precious materials.
-                      </p>
             </div>
-          </div>
-        </Slider>
-      </div>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div>
+            <div className="top_selling_brand_sub_div11">
+              <div className="main_button_box11">
+                <img src={apple} className="main_brand_img1122" alt=""/>
+                <div className="brand_div_name">
+                <NavLink className="hover_latest_model" to="/sellpart2"><p>Apple iPhone 12</p></NavLink>
+                </div>
+              </div>
+            </div>
+            </div>
+           
+        
+   
+          </Slider>
+        </div>
+        </div>
       </>
     );
   }

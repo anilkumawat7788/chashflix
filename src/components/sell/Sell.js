@@ -1,6 +1,7 @@
 import React from "react";
 import "./sell.css";
 import Slider1 from "../sliders/Slider1";
+import Slider2 from "../sliders/Slider2";
 import sell from "../../images/phones/sell.svg";
 import phone1 from "../../images/phones/phone1.png";
 import phone2 from "../../images/phones/phone2.png";
@@ -21,6 +22,8 @@ import sell2 from "../../images/2.svg";
 import sell3 from "../../images/3.svg";
 import sell4 from "../../images/4.svg";
 import sell5 from "../../images/5.svg";
+import hot from "../../images/phones/hot.png"
+import { NavLink } from "react-router-dom";
 const Sell = () => {
   return (
     <>
@@ -131,6 +134,89 @@ const Sell = () => {
         </div>
       </div>
 <Slider1 />
+<Slider2 />
+{/* 
+<div className="happy_customber">
+  <div className="happy_customber_sub">
+    <div className="happy_customber_boxes">
+<div className="icon_img_happy"></div>
+<div className="happy_content">
+
+</div>
+    </div>
+  </div>
+</div> */}
+<div className="main_happy_customer">
+<div class="first-title">
+		<h2>Happy Customers</h2>
+	</div>
+
+<div class="main_content_happy">
+ <div class="section_happy_customer">
+	<div class="panel-1">
+		<img src="https://i.ibb.co/BqC4Hnp/pic2.jpg" alt="HTML5 Icon"/>
+		
+	    <p><span class="quote-1">&#147;</span> Lorem Ipsum is simply dummy textof the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever sunce the 1500s;when an unknown printer took a galley of type and scrambled it to make <span class="quote-2">&#x93;</span></p>
+		<a href="#">Shalini Singh,</a> <span class="job-title">PROJECT MANAGER</span>
+   </div>
+   <div class="panel-2">
+		<img src="https://i.ibb.co/BqC4Hnp/pic2.jpg" alt="HTML5 Icon"/> 
+	  
+	    <p><span class="quote-1">&#147;</span> Lorem Ipsum is simply dummy textof the printing and typesetting industry.Lorem Ipsum has been the industry standard dummy text ever sunce the 1500s;when an unknown printer took a galley of type and scrambled it to make <span class="quote-2">&#x93;</span></p>
+		<a href="#">Madam Elisabath,</a> <span class="job-title">Creative Director</span>
+   </div>
+ </div>
+ 
+
+
+ {/* <div class="section">
+	<div class="panel-1">
+		<img src="https://i.ibb.co/BqC4Hnp/pic2.jpg" alt="HTML5 Icon"/> 
+		<p><span class="quote-1">&#147;</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.<span class="quote-2">&#x93;</span></p>
+		<a href="#">Clips arter,</a> <span class="job-title">Lipsum directer</span> 
+    </div>
+	
+    <div class="panel-2">
+		<img src="https://i.ibb.co/BqC4Hnp/pic2.jpg" alt="HTML5 Icon"/> 
+		<p><span class="quote-1">&#147;</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make.<span class="quote-2">&#x93;</span></p>
+		<a href="#">zam cristafr,</a> <span class="job-title">manager</span>	
+	</div>
+   
+ </div> */}
+ </div>
+ </div>
+ <div className="hot_deal_section">
+   <h2>Hot Deals</h2>
+   <div className="hot_deals_sub_section">
+     <div className="hot_deal_sub_div">
+       <div className="hot_buttons">
+         <NavLink to="/" className="hot_btn_bg">BUYBACK</NavLink>
+         <p>OFFERS</p>
+       </div>
+       <div className="hot_imges">
+         <img src={hot} alt=""/>
+       </div>
+     </div>
+     <div className="hot_deal_sub_div">
+       <div className="hot_buttons">
+         <NavLink to="/" className="hot_btn_bg">REPAIR</NavLink>
+         <p>OFFERS</p>
+       </div>
+       <div className="hot_imges">
+         <img src={hot} alt=""/>
+       </div>
+     </div>
+     <div className="hot_deal_sub_div">
+       <div className="hot_buttons">
+         <NavLink to="/" className="hot_btn_bg">EXCHANGE</NavLink>
+         <p>OFFERS</p>
+       </div>
+       <div className="hot_imges">
+         <img src={hot} alt=""/>
+       </div>
+     </div>
+   </div>
+ </div>
     </>
   );
 };

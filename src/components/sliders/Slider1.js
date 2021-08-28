@@ -16,11 +16,7 @@ import phone11 from "../../images/phones/phone11.png";
 import phone12 from "../../images/phones/phone12.png";
 import phone13 from "../../images/phones/phone13.png";
 import phone14 from "../../images/phones/phone14.png";
-import s1 from "../../images/1.svg";
-import s2 from "../../images/2.svg";
-import s3 from "../../images/3.svg";
-import s4 from "../../images/4.svg";
-import s5 from "../../images/5.svg";
+
 // import s6 from "../../images/6.svg";
 import { AiOutlineArrowUp } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
@@ -33,7 +29,35 @@ class Services extends Component {
       infinite: true,
       centerPadding: "60px",
       slidesToShow: 4,
+      slidesToScroll: 4,
+      initialSlide: 0,
       speed: 500,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            infinite: true,
+           
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
     };
     return (
       <>
