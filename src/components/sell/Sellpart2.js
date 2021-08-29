@@ -7,19 +7,18 @@ import { NavLink } from "react-router-dom";
 const Sellpart2 = () => {
     return (
         <>
-       <div className="main_about_page_layout">
-        <div className="main_about_section">
-          <div className="about_heading_content">
+       <div className="main_about_page_layout1234">
+        <div className="main_about_section1234">
+          <div className="about_heading_content1234">
             <h1>Sell Old Apple Mobile Phone</h1>
           <div className="search_box">
               <input type="text" className="search_feild" placeholder="Search Your Mobile Phone To Sell" />
               {/* <img src="" alt=""/> */}
               <img src="https://img.icons8.com/pastel-glyph/64/000000/search--v3.png"/>
-            
           </div>
          
           </div>
-          <div className="about_img_content">
+          <div className="about_img_content1234">
             <img src={sell} alt="" />
           </div>
         </div>

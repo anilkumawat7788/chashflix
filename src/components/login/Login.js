@@ -38,23 +38,15 @@ const Login = () => {
     </div>
     <NavLink to="/signup">Forgot password?</NavLink>
     {/* <a href=''><span>Forgot password?</span></a> */}
-    <input  type='submit' id = 'login-button' value='Sign In'/>
+    <input className="btn"  type='submit' id = 'login-button' value='Sign In'/>
     
   </form>
   
-  {/* <div className='alternate-logins'>
-    Or Sing Up Using
-    <div className='social-links'>
-      <i className='bx bxl-google' ></i>
-      <i className='bx bxl-facebook' ></i>
-      <i className='bx bxl-twitter' ></i>
-    </div>
-  </div> */}
   
   <div className='sign-up'>
   Don't have an account yet? <br />
     {/* <a href=''>SIGN UP</a> */}
-<NavLink to="/signup">SIGN UP</NavLink>
+<NavLink className="sign_in_up" to="/signup">SIGN UP</NavLink>
   </div>
 </div>
 </div>

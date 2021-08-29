@@ -46,7 +46,7 @@ const Signup = () => {
     </div>
     {/* <NavLink to="/signup">Forgot password?</NavLink> */}
     {/* <a href=''><span>Forgot password?</span></a> */}
-    <input type='submit' id = 'login-button' value='Sign Up'/>
+    <input  type='submit' id = 'login-button' value='Sign Up'/>
     
   </form>
   
@@ -62,7 +62,7 @@ const Signup = () => {
   <div className='sign-up'>
   Already have an account ? <br />
     {/* <a href=''>SIGN UP</a> */}
-<NavLink to="/login">Sign In</NavLink>
+<NavLink className="sign_in_up" to="/login">Sign In</NavLink>
   </div>
 </div>
 </div>
